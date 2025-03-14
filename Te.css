@@ -1,0 +1,47 @@
+body{
+  
+  animation: bb 5s ease 1s 1 both;
+}
+@keyframes bb{
+  0%{
+    background: #000000;
+  }
+  100%{
+    background: #00117a;
+  }
+}
+div{
+  animation: as 5s linear 1s infinite  both running ;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  text-align: center;
+}
+@keyframes as {
+  0%{
+    background: #222;
+    translate: 0 0;
+    rotate: 0;
+  }
+  25%{
+    background: green;
+    translate: 0 200px;
+    rotate: 90deg;
+  }
+  50%{
+    background: #c6680e;
+    translate: 200px 200px;
+    rotate: 180deg;
+  }
+  75%{
+    background: #d8e829;
+    translate: 200px 0;
+    rotate: 270deg;
+  }
+  100%{
+    background: black;
+    translate: 0 0;
+    rotate: 360deg;
+  }
+}
+
